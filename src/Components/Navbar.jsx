@@ -14,12 +14,12 @@ function Nav(){
   const handleClose = () => setNavbar(!navbar);
 
   return(
-    <nav className="w-screen h-20 z-10 bg-[#001933] fixed shadow-xl">
+    <nav className="w-screen h-20 z-30 bg-[#001933] fixed shadow-xl">
 
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center w-screen">
           <h1 className="p-4 mr-4 font-bold text-2xl tm tm:hover md:text-3xl">
-            <Link to="home" smooth={true} duration={500} className="tracking-wider">tm.</Link>
+            <Link to="hero" smooth={true} duration={500} className="tracking-wider">tm.</Link>
           </h1>
           <ul className="hidden text-slate-100 w-full justify-end md:flex">
             <li className="p-2 mr-6 rounded-lg list-none transition- hover:bg-blue-700 duration-700">
@@ -41,13 +41,13 @@ function Nav(){
 
       <ul className={!navbar ? "hidden" : "absolute bg-[#001933] w-full px-8 text-slate-50"}>
         <li className="p-2 mb-3 rounded-lg list-none transition- hover:bg-blue-700 duration-700">
-          <Link to="home" smooth={true} duration={500} onClick={handleClose}>Meus projetos</Link>
+          <Link to="home" smooth={true} duration={500} onClick={handleClose} className="cursor-pointer">Meus projetos</Link>
         </li>
         <li className="p-2 mb-3 rounded-lg list-none hover:bg-blue-700 duration-700">
-          <Link to="sobre" smooth={true} offset={-200} duration={500} onClick={handleClose}>Quem sou eu?</Link>
+          <Link to="sobre" smooth={true} offset={-200} duration={500} onClick={handleClose} className="cursor-pointer">Quem sou eu?</Link>
         </li>
         <li className="p-2 mb-3 rounded-lg list-none hover:bg-blue-700 duration-700">
-          <Link to="trabalhos" smooth={true} offset={-100} duration={500} onClick={handleClose}>Fale comigo</Link>
+          <Link to="trabalhos" smooth={true} offset={-100} duration={500} onClick={handleClose} className="cursor-pointer">Fale comigo</Link>
         </li>
       </ul>
     </nav>
