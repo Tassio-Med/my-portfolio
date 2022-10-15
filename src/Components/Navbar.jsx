@@ -2,8 +2,6 @@ import React,{ useState } from "react";
 import { Link } from 'react-scroll'
 // import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-
-
 import { HiMenu } from 'react-icons/hi';
 import { MdClose } from 'react-icons/md';
 
@@ -23,13 +21,13 @@ function Nav(){
           </h1>
           <ul className="hidden text-slate-100 w-full justify-end md:flex">
             <li className="p-2 mr-6 rounded-lg list-none transition- hover:bg-blue-700 duration-700">
-              <Link to="home" smooth={true} duration={500}>Meus projetos</Link>
+              <Link to="carousel" smooth={true} duration={500} className="font-medium">Meus projetos</Link>
             </li>
             <li className="p-2 mr-6 rounded-lg list-none hover:bg-blue-700 duration-700">
-              <Link to="sobre" smooth={true} offset={-200} duration={500}>Quem sou eu?</Link>
+              <Link to="sobre" smooth={true} offset={-200} duration={500} className="font-medium">Quem sou eu?</Link>
             </li>
             <li className="p-2 mr-4 rounded-lg list-none hover:bg-blue-700 duration-700">
-              <Link to="trabalhos" smooth={true} offset={-100} duration={500}>Fale comigo</Link>
+              <Link to="contact" smooth={true} offset={-100} duration={500} className="font-medium">Fale comigo</Link>
             </li>
           </ul>
         </div>
@@ -41,13 +39,13 @@ function Nav(){
 
       <ul className={!navbar ? "hidden" : "absolute bg-[#001933] w-full px-8 text-slate-50"}>
         <li className="p-2 mb-3 rounded-lg list-none transition- hover:bg-blue-700 duration-700">
-          <Link to="home" smooth={true} duration={500} onClick={handleClose} className="cursor-pointer">Meus projetos</Link>
+          <Link to="carousel" smooth={true} duration={500} onClick={handleClose} className="cursor-pointer">Meus projetos</Link>
         </li>
         <li className="p-2 mb-3 rounded-lg list-none hover:bg-blue-700 duration-700">
           <Link to="sobre" smooth={true} offset={-200} duration={500} onClick={handleClose} className="cursor-pointer">Quem sou eu?</Link>
         </li>
         <li className="p-2 mb-3 rounded-lg list-none hover:bg-blue-700 duration-700">
-          <Link to="trabalhos" smooth={true} offset={-100} duration={500} onClick={handleClose} className="cursor-pointer">Fale comigo</Link>
+          <Link to="contact" smooth={true} offset={-100} duration={500} onClick={handleClose} className="cursor-pointer">Fale comigo</Link>
         </li>
       </ul>
     </nav>
