@@ -24,7 +24,7 @@ function Nav(){
               <Link to="carousel" smooth={true} duration={500} className="font-medium">Meus projetos</Link>
             </li>
             <li className="p-2 mr-6 rounded-lg list-none hover:bg-blue-700 duration-700">
-              <Link to="sobre" smooth={true} offset={-200} duration={500} className="font-medium">Quem sou eu?</Link>
+              <Link to="about" smooth={true} offset={-200} duration={500} className="font-medium">Quem sou eu?</Link>
             </li>
             <li className="p-2 mr-4 rounded-lg list-none hover:bg-blue-700 duration-700">
               <Link to="contact" smooth={true} offset={-100} duration={500} className="font-medium">Fale comigo</Link>
@@ -42,7 +42,7 @@ function Nav(){
           <Link to="carousel" smooth={true} duration={500} onClick={handleClose} className="cursor-pointer">Meus projetos</Link>
         </li>
         <li className="p-2 mb-3 rounded-lg list-none hover:bg-blue-700 duration-700">
-          <Link to="sobre" smooth={true} offset={-200} duration={500} onClick={handleClose} className="cursor-pointer">Quem sou eu?</Link>
+          <Link to="about" smooth={true} offset={-200} duration={500} onClick={handleClose} className="cursor-pointer">Quem sou eu?</Link>
         </li>
         <li className="p-2 mb-3 rounded-lg list-none hover:bg-blue-700 duration-700">
           <Link to="contact" smooth={true} offset={-100} duration={500} onClick={handleClose} className="cursor-pointer">Fale comigo</Link>
