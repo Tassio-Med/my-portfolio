@@ -20,4 +20,19 @@
     text-shadow: 0px 0px 12px  #5fadfc;
     color: white;
   }
+
+  .skills-shadow {
+    box-shadow: 6px 7px 24px 3px rgba(2, 9, 15, 0.987);
+  }
+
+  .animation{
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .animation:hover {
+    color: white;
+    box-shadow: 7px 5px 56px -14px #114477;
+    /* transform: scale(1.1); */
+  }
 }
