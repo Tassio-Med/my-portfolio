@@ -26,10 +26,10 @@ function Carousel() {
             className='w-[250px] h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide md:w-[1100px]'
           >
             {projectsData.map((item) => (
-              <div className='w-[220px] h-[40] bg-slate-50 rounded-2xl inline-block m-3 cursor-pointer hover:scale-105 ease-in-out duration-300 md:w-[339px] md:h-[390px]'>
-                <img key={item.id}className='object-cover w-full rounded-t-2xl h-[57%]' src={item.img} alt={item.title}/>
-                <div class="flex justify-between h-28 p-4 leading-normal">
-                  <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">{item.title}</h5>
+              <div key={item.id} className='w-[220px] h-[40] bg-slate-50 rounded-2xl inline-block m-3 cursor-pointer hover:scale-105 ease-in-out duration-300 md:w-[339px] md:h-[390px]'>
+                <img key={item.id} className='object-cover w-full rounded-t-2xl h-[57%]' src={item.img} alt={item.title}/>
+                <div className="flex justify-between h-28 p-4 leading-normal">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">{item.title}</h5>
                   <div className="hover:scale-105 ease-in-out duration-300">
                     <SiGithub className="text-3xl"/>
                   </div>
