@@ -1,7 +1,7 @@
 // import About from "./Components/About";
 import Nav from "./Components/Navbar"
 import Hero from "./Components/Hero";
-// import Slider from "./Components/Slider";
+import Carousel from "./Components/Carousel";
 // import Contact from "./Components/Contact";
 // import { BrowserRouter } from "react-router-dom";
 
@@ -10,7 +10,7 @@ function App() {
       <div className="app">
         <Nav/>
         <Hero/>
-        {/* <Slider/> */}
+        <Carousel/>
         {/* <About/> */}
         {/* <Contact/> */}
       </div>
