@@ -1,4 +1,4 @@
-// import About from "./Components/About";
+import About from "./Components/About";
 import Nav from "./Components/Navbar"
 import Hero from "./Components/Hero";
 import Carousel from "./Components/Carousel";
@@ -11,7 +11,7 @@ function App() {
         <Nav/>
         <Hero/>
         <Carousel/>
-        {/* <About/> */}
+        <About/>
         {/* <Contact/> */}
       </div>
   );
