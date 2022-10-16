@@ -1,92 +1,71 @@
 import React from "react";
+import {FaReact, FaGithub, FaHtml5, FaDocker} from 'react-icons/fa';
+import {DiGit, DiHeroku} from 'react-icons/di';
+import {GrMysql, GrNode} from 'react-icons/gr';
+import {SiRedux, SiJavascript, SiTailwindcss, SiCss3, SiJest, SiBootstrap} from 'react-icons/si';
 
 function Skills(){
   return(
-    <div className="bg-[#001021] flex flex-col justify-center items-center max-w-md mx-8  md:max-w-md min-w-0 rounded-xl skills-shadow animation animation:hover">
-      <div className="flex justify-center items-center mb-4  mt-4">
-        <h2 className="text-4xl font-bold text-[#5fadfc]">Minhas Skills</h2>
+    <div className="mt-8 bg-slate-50 flex flex-col justify-center items-center max-w-md mx-8  md:mt-0 md:max-w-md min-w-0 rounded-xl skills-shadow animation animation:hover">
+      <div className="flex justify-center items-center my-3">
+        <h2 className="text-2xl text-slate-700 font-bold leading-normal">Minhas Skills</h2>
       </div>
-      <ul className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 text-slate-50 mb-4">
+      <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 text-slate-50 p-4 mb-3">
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            alt="Git ícone"
-            width="20%"
-          />
-          <p className="skill-name">Git</p>
+          <DiGit className="text-4xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Git</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            alt="Github ícone"
-            width="20%"
-            className='github-icon'
-          />
-          <p className="skill-name">Github</p>
+          <FaGithub className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Github</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="Javascript ícone"
-            width="20%"
-          />
-          <p className="skill-name">Javascript</p>
+          <SiJavascript className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Javascript</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React ícone"
-            width="20%"
-          />
-          <p className="skill-name">React.js</p>
+          <FaReact className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">React.js</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            alt="HTML5 ícone"
-            width="20%"
-          />
-          <p className="skill-name">HTML5</p>
+          <FaHtml5 className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">HTML5</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            alt="CSS3 ícone"
-            width="20%"
-          />
-          <p className="skill-name">CSS3</p>
+          <SiCss3 className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">CSS3</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-            alt="Jest ícone"
-            width="20%"
-          />
-          <p className="skill-name">Jest</p>
+          <SiJest className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Jest</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
-            alt="Redux ícone"
-            width="20%"
-          />
-          <p className="skill-name">Redux</p>
+          <SiRedux className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Redux</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-            alt="Firebase ícone"
-            width="20%"
-          />
-          <p className="skill-name">Firebase</p>
+          <SiBootstrap className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Bootstrap</p>
         </li>
         <li className="mx-4 flex flex-col justify-center items-center">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-            alt="Tailwind ícone"
-            width="20%"
-          />
-          <p className="skill-name">Tailwind</p>
+          <SiTailwindcss className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Tailwind</p>
+        </li>
+        <li className="mx-4 flex flex-col justify-center items-center">
+          <FaDocker className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Docker</p>
+        </li>
+        <li className="mx-4 flex flex-col justify-center items-center">
+          <GrMysql className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">SQL</p>
+        </li>
+        <li className="mx-4 flex flex-col justify-center items-center">
+          <GrNode className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Node.js</p>
+        </li>
+        <li className="mx-4 flex flex-col justify-center items-center">
+          <DiHeroku className="text-2xl text-[#001933]"/>
+          <p className="text-sm text-slate-400">Heroku</p>
         </li>
       </ul>
     </div>
