@@ -6,7 +6,7 @@ import {SiRedux, SiJavascript, SiTailwindcss, SiCss3, SiJest, SiBootstrap} from 
 
 function Skills(){
   return(
-    <div className="mt-8 bg-slate-50 flex flex-col justify-center items-center max-w-md mx-8  md:mt-0 md:max-w-md min-w-0 rounded-xl skills-shadow animation animation:hover">
+    <div className="mt-8 bg-slate-50 flex flex-col justify-center items-center max-w-md mx-8  md:mt-0 md:max-w-md min-w-0 rounded-xl">
       <div className="flex justify-center items-center my-3">
         <h2 className="text-2xl text-slate-700 font-bold leading-normal">Minhas Skills</h2>
       </div>
