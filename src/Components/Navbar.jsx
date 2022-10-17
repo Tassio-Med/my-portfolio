@@ -15,7 +15,7 @@ function Nav(){
     <nav className="w-screen h-20 z-30 bg-[#001933] fixed shadow-xl">
 
       <div className="px-2 flex justify-between items-center w-full h-full">
-        <div className="flex items-center w-screen">
+        <div className="flex items-center w-screen sm:mx-6">
           <h1 className="p-4 mr-4 font-bold text-2xl tm tm:hover md:text-3xl">
             <Link to="hero" smooth={true} duration={500} className="tracking-wider">tm.</Link>
           </h1>
