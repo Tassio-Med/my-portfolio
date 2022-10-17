@@ -6,7 +6,7 @@ import { SiGithub, SiInstagram, SiLinkedin } from 'react-icons/si'
 
 function About(){
   return(
-    <div id='about' className='w-full md:flex md:justify-center md:items-center bg-[#001021]'>
+    <div id='about' className='w-full h-full block justify-center items-center md:flex md:justify-center md:items-center bg-[#001021]'>
       <div className="flex justify-center items-center">
         <div className="relative max-w-md mx-auto md:max-w-xl min-w-0 break-words bg-white w-full shadow-lg rounded-xl">
             <div className="px-6">
