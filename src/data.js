@@ -6,23 +6,26 @@ import Finantial from './Images/finantial-system.png'
 export const projectsData = [
   {
     id:1,
-    title: 'project 1',
+    title: 'To Do List',
     skills: 'Redux',
     img: ToDo,
+    link: 'https://tazmed-todo-list.netlify.app/',
   },
 
   {
     id:2,
-    title: 'project 2',
+    title: 'Movie Library',
     skills: 'Redux',
     img: Movie,
+    link: 'https://tazmed-movielibray.netlify.app/',
   },
 
   {
     id:3,
-    title: 'project 3',
+    title: 'Finantial System',
     skills: 'Redux',
     img: Finantial,
+    link: 'https://tazmed-finantial-system.netlify.app/',
   },
 
   {
