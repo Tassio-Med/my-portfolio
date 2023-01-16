@@ -1,25 +1,28 @@
 import Image1 from './Images/background.png'
+import ToDo from './Images/todolist.png'
+import Movie from './Images/movie-library.png'
+import Finantial from './Images/finantial-system.png'
 
 export const projectsData = [
   {
     id:1,
     title: 'project 1',
     skills: 'Redux',
-    img: Image1,
+    img: ToDo,
   },
 
   {
     id:2,
     title: 'project 2',
     skills: 'Redux',
-    img: Image1,
+    img: Movie,
   },
 
   {
     id:3,
     title: 'project 3',
     skills: 'Redux',
-    img: Image1,
+    img: Finantial,
   },
 
   {
