@@ -2,7 +2,7 @@ import React from "react";
 import {FaReact, FaGithub, FaHtml5, FaDocker} from 'react-icons/fa';
 import {DiGit, DiHeroku} from 'react-icons/di';
 import {GrMysql, GrNode} from 'react-icons/gr';
-import {SiRedux, SiJavascript, SiTailwindcss, SiCss3, SiJest, SiBootstrap} from 'react-icons/si';
+import {SiRedux, SiJavascript, SiTailwindcss, SiCss3, SiJest, SiBootstrap, SiMongodb, SiTypescript} from 'react-icons/si';
 
 function Skills(){
   return(
@@ -66,6 +66,14 @@ function Skills(){
         <li className="mx-4 flex flex-col justify-center items-center">
           <DiHeroku className="text-2xl text-[#001933] hover:scale-110 ease-in-out duration-300"/>
           <p className="text-sm text-slate-400">Heroku</p>
+        </li>
+        <li className="mx-4 flex flex-col justify-center items-center">
+          <SiMongodb className="text-2xl text-[#001933] hover:scale-110 ease-in-out duration-300"/>
+          <p className="text-sm text-slate-400">MongoDB</p>
+        </li>
+        <li className="mx-4 flex flex-col justify-center items-center">
+          <SiTypescript className="text-2xl text-[#001933] hover:scale-110 ease-in-out duration-300"/>
+          <p className="text-sm text-slate-400">Typescript</p>
         </li>
       </ul>
     </div>
