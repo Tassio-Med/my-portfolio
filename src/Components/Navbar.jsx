@@ -20,13 +20,13 @@ function Nav(){
             <Link to="hero" smooth={true} duration={500} className="tracking-wider">tm.</Link>
           </h1>
           <ul className="hidden text-slate-100 w-full justify-end md:flex">
-            <li className="p-2 mr-6 rounded-lg list-none transition- hover:bg-blue-700 duration-700">
+            <li className="p-2 mr-6 rounded-lg list-none transition- hover:bg-blue-700 duration-700 cursor-pointer">
               <Link to="carousel" smooth={true} duration={500} className="font-medium">Meus projetos</Link>
             </li>
-            <li className="p-2 mr-6 rounded-lg list-none hover:bg-blue-700 duration-700">
+            <li className="p-2 mr-6 rounded-lg list-none hover:bg-blue-700 duration-700 cursor-pointer">
               <Link to="about" smooth={true} offset={-200} duration={500} className="font-medium">Quem sou eu?</Link>
             </li>
-            <li className="p-2 mr-4 rounded-lg list-none hover:bg-blue-700 duration-700">
+            <li className="p-2 mr-4 rounded-lg list-none hover:bg-blue-700 duration-700 cursor-pointer">
               <Link to="contact" smooth={true} offset={-100} duration={500} className="font-medium">Fale comigo</Link>
             </li>
           </ul>
