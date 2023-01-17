@@ -2,6 +2,8 @@ import Image1 from './Images/background.png'
 import ToDo from './Images/todolist.png'
 import Movie from './Images/movie-library.png'
 import Finantial from './Images/finantial-system.png'
+import Docker from './Images/docker.png'
+import OneForAll from './Images/mysql.png'
 
 export const projectsData = [
   {
@@ -10,6 +12,7 @@ export const projectsData = [
     skills: 'Redux',
     img: ToDo,
     link: 'https://tazmed-todo-list.netlify.app/',
+    github: 'https://github.com/Tassio-Med/react-todo-list',
   },
 
   {
@@ -18,6 +21,7 @@ export const projectsData = [
     skills: 'Redux',
     img: Movie,
     link: 'https://tazmed-movielibray.netlify.app/',
+    github: 'https://github.com/Tassio-Med/movies-library',
   },
 
   {
@@ -26,20 +30,25 @@ export const projectsData = [
     skills: 'Redux',
     img: Finantial,
     link: 'https://tazmed-finantial-system.netlify.app/',
+    github: 'https://github.com/Tassio-Med/finance-system',
   },
 
   {
     id: 4,
-    title: 'project 4',
+    title: 'Docker To Do List',
     skills: 'Redux',
-    img: Image1,
+    img: Docker,
+    link: 'https://github.com/Tassio-Med/docker-to-do-list-project',
+    github: 'https://github.com/Tassio-Med/docker-to-do-list-project',
   },
 
   {
     id: 5,
-    title: 'project 5',
+    title: 'SQL-One For All',
     skills: 'Redux',
-    img: Image1,
+    img: OneForAll,
+    link: 'https://github.com/Tassio-Med/sql-one-for-all-project',
+    github: 'https://github.com/Tassio-Med/sql-one-for-all-project',
   },
 
   {
