@@ -12,7 +12,7 @@ function Hero(){
             Bem-vindo ao meu portfólio! {''}
           </h1>
           <p className='text-center text-lg text-slate-50 md:text-start md:text-xl'>
-            Estou um relacionamento sério com {''}
+            Estou em um relacionamento sério com {''}
             <Typical
               loop={Infinity}
               wrapper="b"
