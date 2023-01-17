@@ -30,9 +30,9 @@ function Carousel() {
               <div key={item.id} className='w-[220px] h-[40] bg-slate-50 rounded-2xl inline-block m-3 cursor-pointer hover:scale-105 ease-in-out duration-300 md:w-[339px] md:h-[390px]'>
                 <img key={item.id} className='object-cover w-full rounded-t-2xl h-[57%]' src={item.img} alt={item.title}/>
                 <div className="flex justify-between h-28 p-4 leading-normal">
-                  <div>
+                  <div className='hover:underline underline-offset-2'>
                     <a href={item.link} target="_blank" rel="noopener noreferrer" className='flex justify-between'>
-                      <h5 className="mb-2 mr-1 text-xl font-bold tracking-tight text-gray-900 hover:underline underline-offset-2">{item.title} </h5>
+                      <h5 className="mb-2 mr-1 text-xl font-bold tracking-tight text-gray-900">{item.title} </h5>
                       <CgEnter className="text-slate-700 text-lg"/>
                     </a>
                   </div>
