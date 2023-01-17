@@ -36,8 +36,10 @@ function Carousel() {
                       <CgEnter className="text-slate-700 text-lg"/>
                     </a>
                   </div>
-                  <div className="hover:scale-105 ease-in-out duration-300">
-                    <SiGithub className="text-3xl"/>  
+                  <div>
+                    <a href={item.github} target="_blank" rel="noopener noreferrer">
+                      <SiGithub className="text-3xl text-slate-800 hover:text-slate-900"/> 
+                    </a> 
                   </div>
                 </div>
               </div>
