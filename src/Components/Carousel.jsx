@@ -39,8 +39,8 @@ function Carousel() {
                     </div>
                   </div>
                   <div className='flex flex-col'>
-                    <div className='flex flex-wrap mb-5'>
-                      <p className='m-2 text-md'>{item.skills}</p>
+                    <div className=''>
+                      <p className='text-md m-2 mb-4' >{item.skills}</p>
                     </div>
                     <button className='rounded-lg list-none flex justify-center bg-blue-500 hover:bg-blue-700 duration-700 text-slate-50'>
                       <a href={item.github} target="_blank" rel="noopener noreferrer" className='flex justify-between items-center'>
