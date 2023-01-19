@@ -4,6 +4,7 @@ import Movie from './Images/movie-library.png'
 import Finantial from './Images/finantial-system.png'
 import Docker from './Images/docker.png'
 import OneForAll from './Images/mysql.png'
+import MyPortfolio from './Images/myportfolio.png'
 
 export const projectsData = [
   {
@@ -18,6 +19,16 @@ export const projectsData = [
 
   {
     id:2,
+    title: 'My Portfolio',
+    skills: 'ReactJS, Javascript e TailwindCSS',
+    img: MyPortfolio,
+    link: 'https://tassiomedportfolio.vercel.app/',
+    github: 'https://github.com/Tassio-Med/portfolio-2.0',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
+  },
+
+  {
+    id:3,
     title: 'Movie Library',
     skills: 'ReactJS, Javascript e TailwindCSS',
     img: Movie,
@@ -27,7 +38,7 @@ export const projectsData = [
   },
 
   {
-    id:3,
+    id:4,
     title: 'Finantial System',
     skills: 'Typescript, ReactJS e Styled-Components',
     img: Finantial,
@@ -37,7 +48,7 @@ export const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Docker-To Do List',
     skills: 'Docker',
     img: Docker,
@@ -47,7 +58,7 @@ export const projectsData = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'SQL-One For All',
     skills: 'SQL, MySQL',
     img: OneForAll,
