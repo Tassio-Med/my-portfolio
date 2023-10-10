@@ -3,12 +3,54 @@ import ToDo from './Images/todolist.png'
 import Movie from './Images/movie-library.png'
 import Finantial from './Images/finantial-system.png'
 import Docker from './Images/docker.png'
-import OneForAll from './Images/mysql.png'
-import MyPortfolio from './Images/myportfolio.png'
+import Medieval from './Images/background.png'
+import Attendance from './Images/atendance.png'
+import StarWars from './Images/starwars.png'
+import TaskBoard from './Images/task.png'
 
 export const projectsData = [
   {
     id:1,
+    title: 'Star Wars News',
+    skills: 'Next.js, React.js, Typescript, SASS, Prismic',
+    img: StarWars,
+    link: 'https://starwarsnews.vercel.app/',
+    github: 'https://github.com/Tassio-Med/starwars-news',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
+  },
+
+  {
+    id:2,
+    title: 'Attendance System',
+    skills: 'ReactJS, Javascript, CSS, Firebase, Firebase-Auth',
+    img: Attendance,
+    link: 'https://attendance-system-cyan.vercel.app/',
+    github: 'https://github.com/Tassio-Med/attendance-system',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
+  },
+
+  {
+    id:3,
+    title: 'Task Board',
+    skills: 'Next.js, Next-Auth, Typescript, CSS, Google-Authentication',
+    img: TaskBoard,
+    link: 'https://taskboard-drab.vercel.app/',
+    github: 'https://github.com/Tassio-Med/task-board',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
+  },
+
+  {
+    id: 4,
+    title: 'Medieval Shop',
+    skills: 'Node.js, Express.js, Typescript, MySQL',
+    img: Medieval,
+    link: 'https://github.com/Tassio-Med/medieval-shop',
+    github: 'https://github.com/Tassio-Med/medieval-shop',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
+  },
+
+  {
+    id: 5,
     title: 'To Do List',
     skills: 'ReactJS, Javascript e CSS',
     img: ToDo,
@@ -18,17 +60,7 @@ export const projectsData = [
   },
 
   {
-    id:2,
-    title: 'My Portfolio',
-    skills: 'ReactJS, Javascript e TailwindCSS',
-    img: MyPortfolio,
-    link: 'https://tassiomedportfolio.vercel.app/',
-    github: 'https://github.com/Tassio-Med/portfolio-2.0',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
-  },
-
-  {
-    id:3,
+    id: 6,
     title: 'Movie Library',
     skills: 'ReactJS, Javascript e TailwindCSS',
     img: Movie,
@@ -38,7 +70,7 @@ export const projectsData = [
   },
 
   {
-    id:4,
+    id: 7,
     title: 'Finantial System',
     skills: 'Typescript, ReactJS e Styled-Components',
     img: Finantial,
@@ -48,7 +80,7 @@ export const projectsData = [
   },
 
   {
-    id: 5,
+    id: 8,
     title: 'Docker-To Do List',
     skills: 'Docker',
     img: Docker,
@@ -57,15 +89,6 @@ export const projectsData = [
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
   },
 
-  {
-    id: 6,
-    title: 'SQL-One For All',
-    skills: 'SQL, MySQL',
-    img: OneForAll,
-    link: 'https://github.com/Tassio-Med/sql-one-for-all-project',
-    github: 'https://github.com/Tassio-Med/sql-one-for-all-project',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, libero sed, quidem officia sequi sapiente fugit est, rem dolores',
-  },
 
   // {
   //   id: 6,
