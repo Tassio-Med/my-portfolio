@@ -1,5 +1,5 @@
 import React from 'react';
-import Hand from '../Images/3dhand.png'
+// import Hand from '../Images/3dhand.png'
 
 
 function Hero(){
@@ -19,7 +19,7 @@ function Hero(){
           </p>
         </div>
         <div className="flex justify-center items-center relative z-10 bottom-44 md:z-10 md:bottom-0">
-          <img src={Hand} alt="hand-shake" className="w-[600px] mt-10 md:w-[800px]"/>
+          {/* <img src={Hand} alt="hand-shake" className="w-[600px] mt-10 md:w-[800px]"/> */}
         </div>
       </div>
     </div>

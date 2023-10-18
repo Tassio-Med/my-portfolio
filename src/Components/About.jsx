@@ -48,7 +48,7 @@ function About(){
                 <div className="mt-6 py-6 border-t border-slate-200 text-center">
                     <div className="flex flex-wrap justify-center">
                         <div className="w-full px-4">
-                            <p className="font-light leading-relaxed text-slate-600 mb-4"> Sou estudante de Desenvolvimento Web na Trybe, em  transição de carreira. Trago comigo aprendizados de outras áreas, agora abraçando o conhecimento focado no Desenvolvimento Web. Perseverança e diálogo são valores que carrego e me inspiram a navegar nas águas do mundo tech, dando um up nas minhas Hard Skills e Soft Skills</p>
+                            <p className="font-light leading-relaxed text-slate-600 mb-4">Sou Desenvolvedor Full Stack e atuo como freelancer. Trago comigo aprendizados de outras áreas, agora abraçando o conhecimento focado no Desenvolvimento Web. Perseverança e diálogo são valores que carrego e me inspiram a navegar nas águas do mundo tech, dando um up nas minhas Hard Skills e Soft Skills</p>
                         </div>
                     </div>
                 </div>
